@@ -1,0 +1,13 @@
+com\rania\ecommerce\tests\NavigationTest.class
+com\rania\ecommerce\utils\ConfigReader.class
+com\rania\ecommerce\pages\CartPage.class
+com\rania\ecommerce\pages\HomePage.class
+com\rania\ecommerce\tests\CheckoutTest.class
+com\rania\ecommerce\base\BaseTest.class
+com\rania\ecommerce\pages\CheckoutPage.class
+com\rania\ecommerce\pages\SearchResultsPage$ProductDetails.class
+com\rania\ecommerce\pages\LoginPage.class
+com\rania\ecommerce\pages\SearchResultsPage.class
+com\rania\ecommerce\pages\ProductPage.class
+com\rania\ecommerce\tests\SearchTest.class
+com\rania\ecommerce\tests\CartTest.class

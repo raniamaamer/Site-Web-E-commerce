@@ -1,38 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Test Suite - Tests Simples" verbose="1">
-    
-    <!-- Décommentez UN SEUL test à la fois -->
-    
-    <!-- Test de Navigation -->
-    <test name="Navigation Test">
-        <classes>
-            <class name="com.rania.ecommerce.tests.NavigationTest"/>
-        </classes>
-    </test>
-    
-    <!-- Test du Panier
-    <test name="Cart Test">
-        <classes>
-            <class name="com.rania.ecommerce.tests.CartTest"/>
-        </classes>
-    </test>
-    -->
-    
-    <!-- Test de Recherche
-    <test name="Search Test">
-        <classes>
-            <class name="com.rania.ecommerce.tests.SearchTest"/>
-        </classes>
-    </test>
-    -->
-    
-    <!-- Test de Checkout
-    <test name="Checkout Test">
-        <classes>
-            <class name="com.rania.ecommerce.tests.CheckoutTest"/>
-        </classes>
-    </test>
-    -->
-    
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EcommerceSuite">
+  <test name="E2E">
+    <classes>
+      <class name="com.rania.ecommerce.tests.E2ETest"/>
+    </classes>
+  </test>
 </suite>

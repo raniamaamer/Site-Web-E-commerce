@@ -5,8 +5,5 @@ C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\ra
 C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\pages\LoginPage.java
 C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\pages\ProductPage.java
 C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\pages\SearchResultsPage.java
-C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\tests\CartTest.java
-C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\tests\CheckoutTest.java
-C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\tests\NavigationTest.java
-C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\tests\SearchTest.java
+C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\tests\E2ETest.java
 C:\Users\rania\eclipse-workspace\ecommerce-functional-tests\src\test\java\com\rania\ecommerce\utils\ConfigReader.java

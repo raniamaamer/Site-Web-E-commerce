@@ -1,30 +1,29 @@
 package com.rania.ecommerce.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-    WebDriver driver;
+    private final WebDriver driver;
 
-    @FindBy(id = "user-name")
-    WebElement usernameField;
-
-    @FindBy(id = "password")
-    WebElement passwordField;
-
-    @FindBy(id = "login-button")
-    WebElement loginButton;
+    private final By usernameInput = By.id("user-name");
+    private final By passwordInput = By.id("password");
+    private final By loginButton = By.id("login-button");
+    private final By errorMessage = By.cssSelector("h3[data-test='error']");
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this);
     }
 
     public void login(String username, String password) {
-        usernameField.sendKeys(username);
-        passwordField.sendKeys(password);
-        loginButton.click();
+        driver.findElement(usernameInput).clear();
+        driver.findElement(usernameInput).sendKeys(username);
+        driver.findElement(passwordInput).clear();
+        driver.findElement(passwordInput).sendKeys(password);
+        driver.findElement(loginButton).click();
+    }
+
+    public boolean isErrorDisplayed() {
+        return !driver.findElements(errorMessage).isEmpty();
     }
 }

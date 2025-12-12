@@ -6,8 +6,10 @@
       <class name="com.rania.ecommerce.tests.E2ETest">
         <methods>
           <include name="beforeClass"/>
+          <include name="testLogin"/>
           <include name="testCheckoutProcess"/>
           <include name="tearDown"/>
+          <include name="testAddProductToCart"/>
         </methods>
       </class> <!-- com.rania.ecommerce.tests.E2ETest -->
     </classes>
